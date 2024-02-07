@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+}
+.ReviewListItem {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.ReviewListItem-img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  /* 지정된 이미지를 채우기 위한 속성 */
+  margin-right: 20px;
+}
